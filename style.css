@@ -1,0 +1,586 @@
+body{
+
+ 
+
+    background-color: black;
+
+ 
+
+    color: white;
+
+ 
+
+    font-family: "recursive",sans-serif;
+
+ 
+
+}
+
+ 
+
+.cabecalho{
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: space-between;
+
+ 
+
+    align-items: center;
+
+ 
+
+    padding-left: 2px;
+
+ 
+
+    padding-right: 40px;
+
+ 
+
+}
+
+ 
+
+.cabecalho_botao{
+
+ 
+
+    max-width: 180px;
+
+ 
+
+}
+
+ 
+
+.cabecalho_lista{
+
+ 
+
+    display: flex;
+
+ 
+
+    gap: 25px;
+
+ 
+
+}
+
+ 
+
+.cabecalho_lista_item{
+
+ 
+
+    font-size: 2.5rem;
+
+ 
+
+    transition: 0.2s ease-in-out;
+
+ 
+
+}
+
+ 
+
+.cabecalho_lista_item:hover{
+
+ 
+
+    text-decoration: underline;
+
+ 
+
+    color: antiquewhite;
+
+ 
+
+}
+
+ 
+
+.cabecalho_curriculo{
+
+ 
+
+    font-size: 1.5rem;
+
+ 
+
+}
+
+
+
+
+
+.home{
+
+ 
+
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/791991374973253058/E3360BCEB1F1EC15FAC2B598B0E3169CF0AB0674/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+
+ 
+
+    background-position: center;
+
+ 
+
+    background-repeat: no-repeat;
+
+ 
+
+    background-size: cover;
+
+ 
+
+    height: 120vh;
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: center;
+
+ 
+
+    align-items: center;
+
+ 
+
+}
+
+
+
+
+
+.home_nome{
+
+ 
+
+    background-color: rgba(0, 0, 0, 0.63);
+
+ 
+
+    color: wheat;
+
+ 
+
+    padding: 30px;
+
+ 
+
+    border-radius: 50px;
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: center;
+
+ 
+
+    align-items: center;
+
+ 
+
+    flex-direction: column;
+
+ 
+
+    gap: 30px;
+
+ 
+
+}
+
+ 
+
+.home_nome_completo{
+
+ 
+
+    color: white;
+
+    font-size: 100px;
+
+    padding: 20px;
+
+    gap: 1px
+
+ 
+
+}
+
+.home_nome_profissao{
+
+ 
+
+    color: white;
+
+    font-size: 60px;
+
+    gap: 1px
+
+ 
+
+}
+
+ 
+
+.cursos_infinity{
+
+ 
+
+    background-color: rgba(29, 2, 41, 0.63);
+
+ 
+
+    color: wheat;
+
+ 
+
+    padding: 100px;
+
+ 
+
+    padding-left: 100px;
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: center;
+
+ 
+
+    align-items: center;
+
+ 
+
+    gap: 100px;
+
+ 
+
+}
+
+ 
+
+.cursos_feitos{
+
+    color: white;
+
+    font-size: 70px;
+
+    padding: 5px;
+
+    gap: 1px;
+
+    display: flex;
+
+ 
+
+}
+
+ 
+
+.cursos{
+
+ 
+
+    background-color: rgba(0, 0, 0, 0.63);
+
+ 
+
+    color: wheat;
+
+ 
+
+    padding: 10px;
+
+ 
+
+    border-radius: 100px;
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: center;
+
+ 
+
+    align-items: center;
+
+ 
+
+    flex-direction: column;
+
+ 
+
+    gap: 5px;
+
+ 
+
+}
+
+ 
+
+.cursos_instituicao{
+
+ 
+
+    color: rgb(136, 15, 15);
+
+    font-size: 100px;
+
+    padding: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+ 
+
+}
+
+ 
+
+.cursos_realizados{
+
+ 
+
+    color: rgb(235, 11, 48);
+
+    font-size: 100px;
+
+    padding: 10px;
+
+    gap: 5px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+   
+
+ 
+
+}
+
+ 
+
+.cursos_descricao{
+
+  font-size: 19px;
+
+}
+
+ 
+
+.cursos_duracao{
+
+ 
+
+    color: rgb(22, 19, 214);
+
+    font-size: 40px;
+
+    padding: 10px;
+
+    gap: 5px;
+
+ 
+
+}
+
+ 
+
+.projetos_infinity{
+
+ background-color: rgba(54, 5, 75, 0.63);
+
+ gap: 100px;
+
+ padding: 100px;
+
+ padding-left: 100px;
+
+ display: flex;
+
+ justify-content: space-between;
+
+ align-items: center;
+
+ 
+
+}
+
+ 
+
+.projetos{
+
+    color: white;
+
+    font-size: 100px;
+
+    padding: 3px;
+
+    gap: 1px;
+
+    display: flex;
+
+   
+
+}
+
+ 
+
+.projeto_infinity_marvel{
+
+ 
+
+ 
+
+    color: antiquewhite;
+
+ 
+
+    border-radius: 30px;
+
+ 
+
+    background-color: black;
+
+ 
+
+    padding: 40px;
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: center;
+
+   
+
+    flex-direction: column;
+
+ 
+
+    gap: 1px;
+
+ 
+
+}
+
+ 
+
+.projeto_marvel{
+
+  color: white;
+
+  font-size: 50px;
+
+  border-radius: 50px;
+
+}
+
+ 
+
+.projeto_instituicao{
+
+  color: rgb(109, 137, 197);
+
+  font-size: 40px;
+
+  border-radius: 50px;
+
+}
+
+ 
+
+.descricao_projeto{
+
+  color: white;
+
+  font-size: 30px;
+
+  border-radius: 50px;
+
+}
+
+
+
+
+.footer_portifolio{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 27px;
+
+}
+
+ 
+
+.footer_profissao{
+
+  display: flex;
+
+  color: rgb(109, 108, 105);
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 20px;
+
+}
+
+ 
+
+.footer_desenvolvedor{
+
+  display: flex;
+
+  color: rgba(235, 50, 50, 0.671);
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 25px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
